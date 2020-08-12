@@ -2,7 +2,7 @@
     "name": "vscode-stdext",
     "displayName": "stdext",
     "description": "Standard Extension Pack from serverhorror",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "serverhorror",
     "repository": "https://github.com/serverhorror/vscode-stdext",
     "engines": {
