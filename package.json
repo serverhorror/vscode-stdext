@@ -1,0 +1,20 @@
+{
+    "name": "vscode-stdext",
+    "displayName": "stdext",
+    "description": "Standard Extension Pack from serverhorror",
+    "version": "0.0.1",
+    "publisher": "serverhorror",
+    "repository": "https://github.com/Microsoft/vscode-extension-samples",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "amazonwebservices.aws-toolkit-vscode",
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "ms-vscode-remote.vscode-remote-extensionpack"
+    ]
+}
