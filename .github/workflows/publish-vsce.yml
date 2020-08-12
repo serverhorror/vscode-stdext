@@ -1,9 +1,9 @@
 on:
   # workflow_dispatch: {}
-  push:
-    branches:
-      - master
-      - "feature/**"
+  # push:
+  #   branches:
+  #     - master
+  #     - "feature/**"
   release:
     types:
       - created
