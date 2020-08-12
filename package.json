@@ -2,7 +2,7 @@
     "name": "vscode-stdext",
     "displayName": "stdext",
     "description": "Standard Extension Pack from serverhorror",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "serverhorror",
     "repository": "https://github.com/serverhorror/vscode-stdext",
     "engines": {
@@ -11,6 +11,9 @@
     "categories": [
         "Extension Packs"
     ],
+    "scripts": {
+        "deploy": "vsce publish --yarn"
+    },
     "extensionPack": [
         "amazonwebservices.aws-toolkit-vscode",
         "ms-azuretools.vscode-docker",
