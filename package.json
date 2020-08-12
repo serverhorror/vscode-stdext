@@ -11,6 +11,9 @@
     "categories": [
         "Extension Packs"
     ],
+    "scripts": {
+        "deploy": "vsce publish --yarn"
+    },
     "extensionPack": [
         "amazonwebservices.aws-toolkit-vscode",
         "ms-azuretools.vscode-docker",
